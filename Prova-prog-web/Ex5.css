@@ -1,0 +1,42 @@
+.logo{
+    border-radius: 35%;
+    height: 65px;
+    width: 65px;
+    margin-left: 24px;
+}
+
+h1{
+    position: relative;
+    bottom: 15px;
+    left: 8px;
+    color:black;
+}
+
+body{
+    background-image: url(http://www.agrorealdistribuidora.com.br/wp-content/uploads/2018/12/agro-18.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#celular{
+    position: relative;
+    top: 190px;
+    left: 220px;
+}
+
+#balao{
+    width: 200px;
+    position: relative;
+    bottom: 470px;
+    left: 400px;
+}
+
+#descricao{
+    font-weight: 550;
+    font-size: 24;
+    position: relative;
+    left: 490px;
+    bottom: 850px;
+}
