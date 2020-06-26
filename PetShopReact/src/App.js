@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-
 const API = 'https://server-node-example.herokuapp.com/produtos';
 
     class App extends Component {
 
-      constructor(props) {
+    constructor(props) {
     super(props);
  
     this.state = {
@@ -20,7 +19,6 @@ const API = 'https://server-node-example.herokuapp.com/produtos';
 
       render() {
         const { produtos } = this.state;
-
         return (
           <ul>
             {produtos.map(item => (
@@ -36,7 +34,7 @@ const API = 'https://server-node-example.herokuapp.com/produtos';
         );
       }
     }
-    
+   
     export default App;
 
  
